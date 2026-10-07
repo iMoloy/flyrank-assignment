@@ -25,7 +25,6 @@ const getWeatherDescription = (code: number) => {
 
 export const WeatherApp: React.FC = () => {
   const {
-    searchQuery,
     searchResults,
     isSearching,
     searchError,

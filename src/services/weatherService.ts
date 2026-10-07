@@ -1,4 +1,4 @@
-import { City, WeatherData } from '../types';
+import type { City, WeatherData } from '../types';
 
 export const weatherService = {
   async searchCities(query: string): Promise<City[]> {
