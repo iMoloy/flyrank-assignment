@@ -1,11 +1,10 @@
-import SettingsForm from './components/SettingsForm';
+import React from 'react';
+import { WeatherApp } from './components/WeatherApp';
 
 function App() {
   return (
-    <div style={{ padding: '2rem' }}>
-      <SettingsForm />
-    </div>
-  )
+    <WeatherApp />
+  );
 }
 
-export default App
+export default App;
